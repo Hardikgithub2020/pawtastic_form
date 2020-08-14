@@ -1,15 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
 
 import React, { Component } from 'react';
-
+import './App.css';
+import logo from './logo.svg';
 class App extends Component {
   render() {
     return (
-      <div>
-        <h1>I am a class Component</h1>
+      <div id="App">
+        {/* <h1>`wireframe Url https://wireframe.cc/fUwMzh</h1> */}
+
+        <div id = 'App-1'>
+             I am frame 1
+        </div>
+        <div id = 'App-2'>
+            I am frame 2
+        </div>
+        
       </div>
     );
   }
