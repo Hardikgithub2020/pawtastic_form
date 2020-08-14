@@ -2,6 +2,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import logo from './logo.svg';
+import Form from './Components/Form'
+
 class App extends Component {
   render() {
     return (
@@ -12,7 +14,8 @@ class App extends Component {
              I am frame 1
         </div>
         <div id = 'App-2'>
-            I am frame 2
+            <h1>Yay, we love dogs! Give us the basic about your pup</h1>
+            <Form />
         </div>
         
       </div>

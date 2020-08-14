@@ -1,6 +1,6 @@
 #App {
   height:100vh;
- 
+  text-align: center;
   background-color: rgb(157, 139, 139);
   display: flex;
   flex-direction: row;
@@ -16,6 +16,7 @@
   margin: 5%;
   margin-left: 0;
   width:55vw;
+  color: whitesmoke;
   background-color: rgb(191, 142, 167);
 }
 
