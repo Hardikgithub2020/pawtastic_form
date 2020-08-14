@@ -19,6 +19,12 @@
   color: whitesmoke;
   background-color: rgb(191, 142, 167);
 }
+.label {
+  font-weight: bolder;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  
+}
 
 
 
