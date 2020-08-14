@@ -11,6 +11,11 @@
   margin-right: 0;
   width:35vw;
   background-color: rgb(106, 57, 82);
+  background-image: url('https://jii.neocities.org/images/mountain-dog.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  background-position: center;
 }
 #App-2{
   margin: 5%;

@@ -11,7 +11,8 @@ class App extends Component {
         {/* <h1>`wireframe Url https://wireframe.cc/fUwMzh</h1> */}
 
         <div id = 'App-1'>
-             I am frame 1
+             <h1>PAWTASTIC</h1>
+             
         </div>
         <div id = 'App-2'>
             <h1>Yay, we love dogs! Give us the basic about your pup</h1>
