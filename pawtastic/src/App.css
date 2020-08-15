@@ -4,6 +4,7 @@
   background-color: rgb(157, 139, 139);
   display: flex;
   flex-direction: row;
+  margin: 0px;
   
 }
 #App-1{

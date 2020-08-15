@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import InfoPage from './Components/Infopage'
-import MyReduxForm from './Components/MyReduxForm';
+
 
 class App extends Component {
   render() {
