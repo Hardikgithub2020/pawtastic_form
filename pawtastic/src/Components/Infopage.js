@@ -1,13 +1,14 @@
 
 
 import React from 'react';
-import Form from './Form'
+import MyReduxForm from './MyReduxForm';
+
 
 function Infopage(props) {
     return (
         <div>
             <h1>Yay, we love dogs! Give us the basic about your pup</h1>
-            <Form />
+            <MyReduxForm />
         </div>
     );
 }

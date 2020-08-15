@@ -15,7 +15,7 @@ class App extends Component {
 
         </div>
         <div id = 'App-2'>
-            <MyReduxForm />
+            
             <InfoPage />
         </div>
         

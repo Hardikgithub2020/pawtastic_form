@@ -5,17 +5,19 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { Provider } from 'react-redux';
 import {createStore, combineReducers} from "redux";
-import {reducer} from 'redux-form';
+import {reducer as formReducer} from 'redux-form';
+
 
 const rootReducer = combineReducers({
-  form:reducer
-});
+         form : formReducer
+})
+
 const store=createStore(rootReducer);
 ReactDOM.render(
 <Provider store={store}>
-  <React.StrictMode>
+  {/* <React.StrictMode> */}
     <App />
-  </React.StrictMode>
+  {/* </React.StrictMode> */}
   </Provider>,
   document.getElementById('root')
 );

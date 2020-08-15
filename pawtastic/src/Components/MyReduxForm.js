@@ -1,22 +1,16 @@
-import React from 'react';
-import {Field , reduxForm} from 'redux-form';
+import React from "react";
+import { Field, reduxForm } from "redux-form";
+import Form from './Form'
 
 function MyReduxForm(props) {
-    const hello = (value) => console.log(value) ;
-    return (
-        <div>
-            <form onSubmit={props.handleSubmit(hello)}>
-      <label>
-      Callback - Trial 2:
-        {/* field generate a object{Field_name : field_value}and pass on submit */}
-        {/* Here field_name is inputname and field_value is value we put on UI */}
-        <Field name="Field-3" component="input" type="text" />
-      </label>
-      <button >Submit</button>  
-    </form>
-            
-        </div>
-    );
+  
+  return (
+    <div>
+      <form >
+          <Field name="Field-3" component={Form} />
+      </form>
+    </div>
+  );
 }
 
-export default reduxForm({form : 'animalinfo'})(MyReduxForm);
+export default reduxForm({ form: "animalinfo" })(MyReduxForm);
