@@ -1,8 +1,8 @@
 
 import React, { Component } from 'react';
 import './App.css';
-import logo from './logo.svg';
-import Form from './Components/Form'
+import InfoPage from './Components/Infopage'
+import MyReduxForm from './Components/MyReduxForm';
 
 class App extends Component {
   render() {
@@ -12,11 +12,11 @@ class App extends Component {
 
         <div id = 'App-1'>
              <h1>PAWTASTIC</h1>
-             
+
         </div>
         <div id = 'App-2'>
-            <h1>Yay, we love dogs! Give us the basic about your pup</h1>
-            <Form />
+            <MyReduxForm />
+            <InfoPage />
         </div>
         
       </div>

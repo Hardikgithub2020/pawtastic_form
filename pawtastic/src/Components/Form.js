@@ -25,7 +25,7 @@ class Form extends Component {
                     Breed<br/>
                     <input name='Breed' type ='text' value={this.state.breed} onChange={e=>this.setState({breed: e.target.value})}/>
                     <br/>
-                    Bithday<br/>
+                    Birthday<br/>
                     <input name='Birthday' type ='text' value={this.state.birthday} onChange={e=>this.setState({birthday: e.target.value})}/>
                     <br/>
                     Gender<br/>
